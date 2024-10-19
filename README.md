@@ -34,6 +34,7 @@ The dataset is composed of three main tables:
 - **Reviews:** Provides user-generated feedback and ratings, offering insight into guest experiences and property popularity.
 
 Additionally, a temporary table named `calculated_metrics` was created to store commonly used aggregated metrics for easier analysis.
+![](airbnb_erd.png)
 
 ---
 
