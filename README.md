@@ -19,10 +19,9 @@ The data used is sourced from Inside Airbnb, a platform that provides publicly a
 
 ## Code and Queries
 
-- **[Python code for importing the dataset to MySQL](#)**  
-- **[SQL queries for inspection and quality checks](#)**  
-- **[SQL queries for data cleaning and preparation](#)**  
-- **[Targeted SQL queries answering various business questions](#)**  
+- **[Python code for importing the dataset to MySQL](https://github.com/jonwpen/Nashville-Airbnb/tree/master/python%20scripts)**  
+- **[SQL queries for data cleaning and preparation](https://github.com/jonwpen/Nashville-Airbnb/tree/master/cleaning%20SQL%20script)**  
+- **[Targeted SQL queries answering various business questions](https://github.com/jonwpen/Nashville-Airbnb/tree/master/analysis%20SQL%20scripts)**  
 
 ---
 
@@ -45,25 +44,30 @@ Additionally, a temporary table named `calculated_metrics` was created to store 
 Some districts exhibit high rental rates and occupancy but have low listing counts, indicating unmet demand.  
 - **District 34:** $439 average rental rate and 42.7% occupancy suggest potential for more listings.  
 - **District 19:** Shows market saturation with over 2,100 listings but a lower occupancy rate (34.6%), despite being the top-earning neighborhood.
+![](question_1.png)
 
 ### Seasonal Trends and Property Type Insights
 
 - **Entire Home/Apt:** While bookings remain high throughout the year, the dip in December's occupancy rate indicates potential overcapacity. This signals an opportunity for price optimization during winter months.
 - **Shared Rooms:** Despite lower booking numbers, shared rooms maintain high occupancy, suggesting strong demand relative to supply. Increasing availability during peak months could capture additional market share.
+![](question_2.png)
 
 ### Earnings by Neighborhood
 
 - **District 19** leads in both monthly and annual earnings, while **District 32** lags with the lowest earnings and only five listings, indicating room for growth in underperforming areas.
+![](question_3.png)
 
 ### Weekly and Seasonal Occupancy Patterns
 
 - **Day of Week:** Occupancy peaks on Fridays and Saturdays (39%) but is lowest on Mondays and Tuesdays (32%).
 - **Seasonal Trends:** Occupancy rates are highest in June (65%) but decline significantly from September to December, with lows in November (22%) and October (27%). **District 29** is unique for maintaining high occupancy year-round.
+![](question_4.png)
 
 ### Top Earners’ Impact
 
 - The top 10% of properties contribute nearly 30% of total earnings, with "Entire Home/Apt" accounting for 98% of top earners.
 - **District 19's** top 10% alone generated $45.2 million over the year, followed by **District 17** at $37.8 million.
+![](question_5.png)
 
 ---
 
