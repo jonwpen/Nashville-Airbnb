@@ -34,7 +34,7 @@ The dataset is composed of three main tables:
 - **Reviews:** Provides user-generated feedback and ratings, offering insight into guest experiences and property popularity.
 
 Additionally, a temporary table named `calculated_metrics` was created to store commonly used aggregated metrics for easier analysis.
-![](airbnb_erd.png)
+![](https://github.com/jonwpen/Nashville-Airbnb/blob/master/images/airbnb_erd.png)
 
 ---
 
@@ -45,30 +45,30 @@ Additionally, a temporary table named `calculated_metrics` was created to store 
 Some districts exhibit high rental rates and occupancy but have low listing counts, indicating unmet demand.  
 - **District 34:** $439 average rental rate and 42.7% occupancy suggest potential for more listings.  
 - **District 19:** Shows market saturation with over 2,100 listings but a lower occupancy rate (34.6%), despite being the top-earning neighborhood.
-![](question_1.png)
+![](https://github.com/jonwpen/Nashville-Airbnb/blob/master/images/question_1.png)
 
 ### Seasonal Trends and Property Type Insights
 
 - **Entire Home/Apt:** While bookings remain high throughout the year, the dip in December's occupancy rate indicates potential overcapacity. This signals an opportunity for price optimization during winter months.
 - **Shared Rooms:** Despite lower booking numbers, shared rooms maintain high occupancy, suggesting strong demand relative to supply. Increasing availability during peak months could capture additional market share.
-![](question_2.png)
+![](https://github.com/jonwpen/Nashville-Airbnb/blob/master/images/question_2.png)
 
 ### Earnings by Neighborhood
 
 - **District 19** leads in both monthly and annual earnings, while **District 32** lags with the lowest earnings and only five listings, indicating room for growth in underperforming areas.
-![](question_3.png)
+![](https://github.com/jonwpen/Nashville-Airbnb/blob/master/images/question_3.png)
 
 ### Weekly and Seasonal Occupancy Patterns
 
 - **Day of Week:** Occupancy peaks on Fridays and Saturdays (39%) but is lowest on Mondays and Tuesdays (32%).
 - **Seasonal Trends:** Occupancy rates are highest in June (65%) but decline significantly from September to December, with lows in November (22%) and October (27%). **District 29** is unique for maintaining high occupancy year-round.
-![](question_4.png)
+![](https://github.com/jonwpen/Nashville-Airbnb/blob/master/images/question_4.png)
 
 ### Top Earners’ Impact
 
 - The top 10% of properties contribute nearly 30% of total earnings, with "Entire Home/Apt" accounting for 98% of top earners.
 - **District 19's** top 10% alone generated $45.2 million over the year, followed by **District 17** at $37.8 million.
-![](question_5.png)
+![](https://github.com/jonwpen/Nashville-Airbnb/blob/master/images/question_5.png)
 
 ---
 
